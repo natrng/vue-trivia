@@ -29,12 +29,12 @@
         </span>
       </div>
     </div>
-    <div v-if="isChecked">
+    <div v-if="isChecked" class="col">
       <div v-if="!isCorrect">
-        <p>Wrong! the right answer is: {{ selectedQuestion.correct }}</p>
+        <p id="wrong">Wrong! the right answer is: {{ selectedQuestion.correct }}</p>
       </div>
       <div v-else>
-        <p>Correct!</p>
+        <p id="right">Correct!</p>
       </div>
     </div>
   </div>
@@ -171,5 +171,13 @@ export default {
 
 #questionBody {
   margin-top: 15em;
+}
+
+#wrong{
+  color: darkred;
+}
+
+#right{
+  color: darkgreen;
 }
 </style>

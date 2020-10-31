@@ -85,6 +85,8 @@ export default {
 
 #result {
   border: 1px solid black;
-  padding-top: 15em;
+      width: fit-content;
+    margin: 15em auto;
+    padding: 0 20px;
 }
 </style>

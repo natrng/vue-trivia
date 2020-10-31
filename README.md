@@ -1,6 +1,6 @@
 # trivia-app
 
-A trivia app with multiple difficulties! To run:
+A trivia app built with Vue.js with multiple difficulties! To run:
 
 ## Clone project
 ```
